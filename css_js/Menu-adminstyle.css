@@ -1,0 +1,105 @@
+
+.menu
+{
+    float: left;
+    width: 20%;
+    height: 70px;
+    background: white;
+    box-shadow: 0 0 20px rgb(5, 5, 5);
+    margin-top: 1%;
+    text-decoration: none;
+    list-style: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    transition: 1s linear;
+}
+.menu:hover
+{
+    height: 550px;
+}
+.name
+{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+}
+.element
+{
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(126, 121, 121);
+    width: 100%;
+    padding: 20px;
+
+}
+.lien
+{
+    margin-left: 10%;
+}
+.element:hover
+{
+background: black;
+color: white;
+transition: 0.3s linear;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.fa
+{
+font-size: 30px;
+}
+.Aduttti
+{
+    display: inline-block;
+    float: none;
+    background: rgb(255, 253, 253);
+    width: 70px;
+    height: 70px;
+    margin-left: 10%;
+    margin-top:12px;
+    box-shadow: 0 0 20px rgb(5, 5, 5);
+    border-radius: 49%;
+    text-align: center;
+    
+}
+.Aduttti span
+{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.Aduttti:hover{
+
+    transform: scale(1.2);
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.box-utti
+{
+    display: inline-block;
+    width: 250px;
+    height: 180px;
+    background:rgb(253, 248, 248);
+    box-shadow: 0 0 10px rgb(5, 5, 5);
+    border-radius: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-left:10px;
+    
+}
+.box-utti input[class="btn btn-primary"]
+{
+    border: none;
+    margin-left: 33%;
+    background: linear-gradient(125deg,rgb(57, 123, 245),rgb(212, 4, 240));
+}
+#image
+{
+    width: 50%;
+    
+}

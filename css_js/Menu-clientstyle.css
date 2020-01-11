@@ -1,0 +1,174 @@
+.lien
+{
+  color: rgb(171, 87, 250);
+}
+.corps
+{
+
+ display: inline-block;
+ margin-right: 140px;
+ margin-top : 20px;
+ margin-bottom: 10px;
+ padding: 10px;
+ text-align: justify;
+ width: 20%;
+ color:white;
+ height: 450px;
+
+}
+.corps img
+{
+  width: 130%;
+  height: 450px;
+  border-radius: 20px;
+  margin-left: -1%;
+}
+.corps p
+{
+
+  margin-top: -150%;
+  padding: 5%;
+  opacity: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.corps p:hover
+{
+ opacity: 1;
+}
+i[class="fa fa-edit"]
+{
+
+  position: relative;
+  display: block;
+  background-color: orange;
+  width: 50px;
+  padding: 5%;
+  border-radius: 50px;
+  margin-left: 70%;
+  margin-bottom: -22%;
+  box-shadow: 0 0 10px rgb(5, 5, 5);
+
+}
+i[class="fa fa-remove"]
+{
+  position: relative;
+  display: block;
+  background-color:red;
+  width: 50px;
+  padding: 5%;
+  border-radius: 50px;
+  margin-left: 95%;
+  margin-bottom: -25%;
+  box-shadow: 0 0 10px rgb(5, 5, 5);
+}
+.form
+{
+ margin-top: -20%;
+ margin-left: 5%;
+ width: 110%;
+ height: 270px;
+ background: rgba(0, 0, 0, 0.856);
+ padding: 6%;
+ border-radius: 10px;
+
+
+}
+.form input[type="text"],textarea
+{
+  background: none;
+  color:white;
+  border:none;
+  border-bottom: 2px solid rgb(183, 0, 255);
+  overflow: hidden;
+  outline: none;
+  width: 112%;
+  margin-left: -6%;
+
+
+
+}
+.form input[type="text"]::placeholder,textarea::placeholder
+{
+  color: rgb(222, 143, 253);
+  text-align: center;
+}
+.check
+{
+  background: green;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 90%;
+  margin-top: 5%;
+  outline: none;
+  box-shadow: 0 0 15px rgb(5, 5, 5);
+  border: 2px solid green;
+
+}
+i[class="fa fa-plus-circle"]
+{
+  display: block;
+  font-size: 80Px;
+  color:white;
+  margin-top: -3%;
+  margin-left: 90%;
+}
+i[class="fa fa-plus-circle"]:hover
+{
+ color:black;
+ cursor: pointer;
+ transition: 0.3s linear;
+
+}
+.form_ajoute
+{
+  float:right;
+  background: rgba(0, 0, 0, 0.80);
+  margin-right: 5%;
+  padding: 2%;
+  border-radius: 10px;
+  text-align: center;
+  display: none;
+
+}
+.form_ajoute input[type="text"]
+{
+
+  background: none;
+  color:white;
+  border:none;
+  border-bottom: 2px solid rgb(183, 0, 255);
+  overflow: hidden;
+  outline: none;
+  width: 112%;
+  margin-left: -6%;
+  text-align: center;
+}
+.form_ajoute input[type="text"]::placeholder
+{
+  color: rgb(222, 143, 253);
+}
+.form_ajoute input[type="file"]
+{
+  color: rgb(222, 143, 253);
+  padding: 1%;
+}
+.form_ajoute input[type="button"]
+{
+  background: none;
+  color:  rgb(222, 143, 253);
+  border: 1px solid  rgb(183, 0, 255);
+  width: 50%;
+  padding: 1%;
+  border-radius: 5px;
+
+}
+.form_ajoute input[type="button"]:hover
+{
+  background: black;
+  transition: 0.3s linear;
+  border: 1px solid black;
+  box-shadow: 0 0 5px 2px  rgb(156, 1, 218);
+}

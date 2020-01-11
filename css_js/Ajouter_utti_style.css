@@ -1,0 +1,72 @@
+
+.card
+{
+    display: inline;
+    padding: 3%;
+    box-shadow: 0 0 10px rgb(5, 5, 5);
+    transform: translate(100%,15%);
+    border-radius: 5%;
+}
+.btn
+{
+    background: linear-gradient(125deg,rgb(57, 123, 245),rgb(212, 4, 240));
+    outline: none;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s linear;
+}
+.btn:hover
+{
+    background-position: right; 
+    transform: scaleX(1.1);
+}
+.form-control
+{
+    border: none;
+    border-bottom: 2px solid rgb(57, 123, 245);
+    overflow: hidden;
+    outline: none;
+    box-shadow: none;
+    border-radius: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    transition: 2s linear;
+    color: black;
+}
+.Aduttti
+{
+    display: inline-block;
+    background: linear-gradient(125deg,rgb(57, 123, 245),rgb(212, 4, 240));
+    outline: none;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 20px rgb(5, 5, 5);
+    border-radius: 49%;
+    text-align: center;
+    transform: translate(210%,-10%);
+    color:white;
+    transition: 0.5s linear;
+}
+.Aduttti span
+{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.Aduttti:hover
+{
+ background: black;
+}
+.form-control:hover
+{
+    border-bottom: 4px solid rgb(212, 0, 255);
+}
+input[type="password"]
+{
+    font-size: 25px;
+    color: black;
+}
+.ERR
+{
+    color:red;
+}
